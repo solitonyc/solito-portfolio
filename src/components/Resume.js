@@ -4,8 +4,8 @@ import './resume.css';
 export default class Resume extends Component {
     render() {
         return (
-            <div clasName='resume_section' id='resume'>
-                RESUME PAGE
+            <div className='resume_section' id='resume'>
+                RESUME
             </div>
         )
     }
