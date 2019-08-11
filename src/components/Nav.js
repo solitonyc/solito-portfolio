@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import logo from './images/logo.jpg';
-import './nav-bar.css';
+import logo from './images/logo.png';
+import './nav.css';
 
-export default class Nav-bar extends Component {
+export default class Nav extends Component {
+    state = {};
     scrollToTop = () => {
         scroll.scrollToTop(); 
     };
@@ -18,7 +19,7 @@ export default class Nav-bar extends Component {
                 <Link
                     className="nav-links"
                     activeClass="active"
-                    to="main"
+                    to="home"
                     spy={true}
                     smooth={true}
                     offset={-40}
@@ -28,7 +29,7 @@ export default class Nav-bar extends Component {
                 <Link
                     className="nav-links"
                     activeClass="active"
-                    to="about"
+                    to="resume"
                     spy={true}
                     smooth={true}
                     offset={-38}
@@ -38,7 +39,7 @@ export default class Nav-bar extends Component {
                 <Link
                     className="nav-links"
                     activeClass="active"
-                    to="services"
+                    to="portfolio"
                     spy={true}
                     smooth={true}
                     offset={-38}
@@ -48,7 +49,7 @@ export default class Nav-bar extends Component {
                 <Link
                     className="nav-links"
                     activeClass="active"
-                    to="portfolio"
+                    to="education"
                     spy={true}
                     smooth={true}
                     offset={-38}

@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './resume.css';
 
 export default class Resume extends Component {
     render() {
         return (
-            <div>
-                
+            <div clasName='resume_section' id='resume'>
+                RESUME PAGE
             </div>
         )
     }

@@ -1,0 +1,13 @@
+.portfolio_section {    
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    align-content: stretch;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(224, 30, 166);
+}

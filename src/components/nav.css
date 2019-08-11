@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Yesteryear&display=swap');
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: right;
+    width: 100%;
+    background-color: rgba(37, 31, 31);
+    color: white;
+    padding-top: 8px;
+    padding-right: 40px;
+    padding-bottom: 6px;
+    height: 26px;
+    z-index: 1;
+}
+
+.nav-links {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    padding: 5px 10px 10px 10px;
+}    
+
+.nav-bar > .active {
+    font-family: 'Raleway', sans-serif;
+    color: peru;
+    border-bottom: 2px solid white;    
+}
+
+.nav_logo {
+    width: 160px;
+    float: left;
+    padding-left: 20px;
+}
