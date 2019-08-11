@@ -8,7 +8,7 @@ export default class Home extends Component {
             backgroundImage: `url(${homeBgImage})`
         }
         return (
-            <div className="home_section" id="main">
+            <div className="home_section" id="home">
                 <div style={style} className='home_section_background'>
                     <div className="home_section_content_container">
                         <div className='home_title'>CREATIVE ENGINEERING!</div>
