@@ -9,11 +9,10 @@ export default class Contact extends Component {
         }
         return (
             <div className="contact_section" id="contact">
-                <div style={style} className='contact_section_background'>
-                    
+                <div style={style} className='contact_section_background'> 
                 <div className="contact_section_content_container">
                     <div className='contact_title'>
-                        Contact Me for Hire:
+                        Contact Me for Hire
                     </div>
                     <div className='contact_content'>
                         Solito Reyes<br />
@@ -22,7 +21,7 @@ export default class Contact extends Component {
                         Email: solitonyc@gmail.com
                     </div>   
                     <div className='contact_subtitle'>
-                        Send Me a Private Message:
+                        Send Me a Private Message
                     </div>              
                     <div className='contact_content'>
                         Click the button below and complete the following form.  I'll respond back ASAP.

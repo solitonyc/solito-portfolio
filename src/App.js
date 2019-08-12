@@ -3,10 +3,13 @@ import './App.css';
 
 import Nav from './components/Nav';
 import Home from './components/Home';
+import Skills from './components/Skills';
+import Summary from './components/Summary';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Education from './components/Education';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -15,10 +18,13 @@ class App extends Component {
       <div className="App">       
         <Nav />
         <Home />
+        <Skills />
+        <Summary />
         <Resume />
         <Portfolio />
         <Education />  
-        <Contact />      
+        <Contact />  
+        <Footer />    
       </div>          
     );
   }
