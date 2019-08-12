@@ -12,7 +12,7 @@ export default class Home extends Component {
                 <div style={style} className='home_section_background'>
                     <div className="home_section_content_container">
                         <div className='home_title'>CREATIVE ENGINEERING & LEADERSHIP</div>
-                        <div className='home_subtitle'>Portfolio Site of Dev Work<br /> by Solito Reyes</div>
+                        <div className='home_subtitle'>Portfolio Site of <span id='highlight'>Solito Reyes</span></div>
                    </div>                  
                 </div>
             </div>
