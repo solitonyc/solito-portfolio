@@ -8,7 +8,7 @@ export default class Skills extends Component {
             <div className='skills_section' id='skills'>
                 <div className="skills_section_title">SKILLS</div>
                  <div className="skills_columns_container">
-                    <div className='skills_column'>
+                    <div className='skills_column_box'>
                         <div className="skills_column_title">Management</div>
                             <ul className="skills_column_list">
                                 <li>Product Management</li>
@@ -22,7 +22,7 @@ export default class Skills extends Component {
                         </div>
                       
 
-                        <div className="skills_column">
+                        <div className="skills_column_box">
                             <div className="skills_column_title">Business</div>
                             <ul className="skills_column_list">
                                 <li>C-Level Management</li>
@@ -35,7 +35,7 @@ export default class Skills extends Component {
                             </ul>
                         </div>
 
-                        <div className="skills_column">
+                        <div className="skills_column_box">
                             <div className="skills_column_title">Technical</div>
                             <ul className="skills_column_list">
                                 <li>HTML, CSS</li>

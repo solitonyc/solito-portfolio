@@ -52,9 +52,9 @@
     max-width: 1200px;
 }
 
-.skills_column {
+.skills_column_box {
     width: 376px;
-	background-color: rgb(4, 36, 46);
+	background-color: rgb(38, 4, 46);
 	border-radius: 12px;
 	padding-bottom: 12px;
 	padding-top: 12px;
