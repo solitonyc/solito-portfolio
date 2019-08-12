@@ -8,7 +8,10 @@
     align-content: stretch;
     height: 100%;
     width: 100%;
-    background-color: rgb(164, 206, 226);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
 .summary_section_title {
