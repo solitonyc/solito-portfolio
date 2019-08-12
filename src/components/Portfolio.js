@@ -41,7 +41,7 @@ export default class Portfolio extends Component {
                         </div>
 
                         <div class='portfolio_card'>
-                            <h2 className="portfolio_card_title">A Client Website</h2>        
+                            <h2 className="portfolio_card_title">Freelance Website</h2>        
                             <p className="portfolio_content">A website I developed for STI as part of a bigger branding project.</p>
                             <p className="portfolio_content">HTML | CSS | Javascript | WordPress</p>
                             <a href='http://sequentialtech.com/' target="_blank"><img className='portfolio_box_image' alt='' src={portfolioImage04} /></a>       
