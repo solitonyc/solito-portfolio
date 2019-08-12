@@ -18,9 +18,9 @@
 .education_section_title {
     font-family: 'Montserrat', sans-serif;
     color: rgb(25, 63, 112);
-    font-size: 55px;
-    padding-top: 30px;
-    height: 70px;
+    font-size: 72px;
+    padding: 30px;
+    height: 100%;
     width: 100%;
     text-align: center;
 }

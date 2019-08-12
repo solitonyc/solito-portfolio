@@ -5,7 +5,7 @@ export default class Education extends Component {
     render() {
         return (
             <div className='education_section' id='education'>
-                <div className='education_section_title'>Education</div>
+                <div className='education_section_title'>EDUCATION</div>
                 <div className="education_item_a">
                     <p className="school_name">General Assembly</p>
                     <p className="degree_name">Web Development Immersive</p>

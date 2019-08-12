@@ -5,7 +5,7 @@ export default class Resume extends Component {
     render() {
         return (
             <div className='resume_section' id='resume'>
-                <div className='resume_section_title'>Resume</div>
+                <div className='resume_section_title'>RESUME</div>
                 <div className="experience_item_a">
                     <p className="job_title">IT & Project Management Consultant</p>
                     <p className="company_name">Company: G2D Group</p>
