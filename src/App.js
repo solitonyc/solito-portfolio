@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
 import Education from './components/Education';
+import Contact from './components/Contact';
 
 
 class App extends Component {
@@ -16,7 +17,8 @@ class App extends Component {
         <Home />
         <Resume />
         <Portfolio />
-        <Education />        
+        <Education />  
+        <Contact />      
       </div>          
     );
   }
