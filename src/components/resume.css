@@ -19,9 +19,11 @@
 .resume_section_title {
     font-family: 'Montserrat', sans-serif;
     color: rgb(25, 63, 112);
-    background-color: white;
     font-size: 55px;
-    padding: 18px;
+    padding-top: 30px;
+    height: 70px;
+    width: 100%;
+    text-align: center;
 }
 
 p {
