@@ -15,6 +15,7 @@ export default class Portfolio extends Component {
         return (
             <div style={style} className='portfolio_section' id='portfolio'>
                 <div className='portfolio_section_title'>PORTFOLIO</div>
+                <div className='portfolio_section_subtitle'>Take a look at some of my personal and freelance programming projects. </div>
                                     
                         <div className='portfolio_card'>
                             <h2 className="portfolio_card_title">Classic Duck Hunt Game</h2>

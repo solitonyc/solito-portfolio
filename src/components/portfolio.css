@@ -18,9 +18,19 @@
 
 .portfolio_section_title {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(25, 63, 112);
+    color: black;
     font-size: 72px;
-    padding: 30px;
+    padding-top: 30px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.portfolio_section_subtitle {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 24px;
+    padding: 15px;
     height: 100%;
     width: 100%;
     text-align: center;
