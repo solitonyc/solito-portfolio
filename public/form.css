@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 body { 
     background-image: url("contact-bg.jpg");
     background-image: "contact-bg.jpg";
@@ -11,12 +14,13 @@ body {
 }
 
 .back {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     font-size: 14px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 36px;
     padding-bottom: 0;
+    float: right;
 }
 
 a {
@@ -31,7 +35,7 @@ a {
 }
 
 .contact_form_instructions {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -52,13 +56,13 @@ form {
 }
 
 label {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
 .input_form {
     color:white;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight:500;
     font-size: 18px;
     border-radius: 8px;
@@ -89,7 +93,7 @@ textarea {
 }
 
 [type="submit"] {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     background:rgb(22, 74, 117);
     border-radius:8px;
@@ -130,7 +134,7 @@ textarea {
     }
 
     label {
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         color: white;
         font-size: 12px;
     }
