@@ -38,7 +38,7 @@
 
 .portfolio_card {
     background-color: rgba(0, 0, 0, 0.8);
-    border: 3px solid white;
+    border: 1px solid white;
     border-radius: 18px;
     margin: 24px 12px;
     max-width: 550px;
