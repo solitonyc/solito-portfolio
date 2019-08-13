@@ -7,7 +7,6 @@ import Skills from './components/Skills';
 import Summary from './components/Summary';
 import Resume from './components/Resume';
 import Portfolio from './components/Portfolio';
-import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,8 +20,7 @@ class App extends Component {
         <Skills />
         <Summary />
         <Resume />
-        <Portfolio />
-        <Education />  
+        <Portfolio /> 
         <Contact />  
         <Footer />    
       </div>          

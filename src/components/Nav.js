@@ -55,16 +55,6 @@ export default class Nav extends Component {
                     offset={-38}
                     duration={500}
                     >Portfolio</Link>
-                
-                <Link
-                    className="nav-links"
-                    activeClass="active"
-                    to="education"
-                    spy={true}
-                    smooth={true}
-                    offset={-38}
-                    duration={500}
-                    >Education</Link>
 
                 <Link
                     className="nav-links"
