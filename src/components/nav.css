@@ -28,7 +28,8 @@
 }
 
 .nav_logo {
-    height: 26px;
+    height: 30px;
     float: left;
     padding-left: 20px;
+    margin-top: 0;
 }
