@@ -20,7 +20,7 @@ export default class Portfolio extends Component {
                         <div className='portfolio_card'>
                             <h2 className="portfolio_card_title">Duck Hunt Game</h2>
                             <p className="portfolio_content">A simplified, desktop version of the classic Nintendo first person shoooter, video game. Use your mouse to aim at ducks flying around, then click to shoot. Go ahead, play it!</p>
-                            <p className="portfolio_content">HTML | CSS | Javascript</p>  
+                            <p className="portfolio_content">HTML | CSS | Javascript | GitHub</p>  
                             <a href='https://solitonyc.github.io/duck-hunt/' target="_blank"><img className='portfolio_box_image' alt='' src={portfolioImage01} /></a>        
                             
                         </div>
@@ -28,7 +28,7 @@ export default class Portfolio extends Component {
                         <div class='portfolio_card'>
                             <h2 className="portfolio_card_title">Full Stack, Social Network</h2>
                             <p className="portfolio_content">A full-stack, social media CRUD application for General Assembly graduates.</p>
-                            <p className="portfolio_content">HTML | CSS Flex | Javascript | Auth | React.js | Express | Rails | PostGreSQL | Heroku</p>
+                            <p className="portfolio_content">HTML | CSS Flex | Javascript | Auth | React.js | Express | Rails | PostGreSQL | GitHub | Heroku</p>
                             <a href='http://ensemble-ga.surge.sh/' target="_blank"><img className='portfolio_box_image' alt='' src={portfolioImage02} /></a>      
                             
                         </div>
@@ -36,7 +36,7 @@ export default class Portfolio extends Component {
                         <div class='portfolio_card'>
                             <h2 className="portfolio_card_title">Picture Puzzle Game</h2>        
                             <p className="portfolio_content">A simple image puzzle that utilizes drag-and-drop. Place random pieces from one side of the board to its proper position on the other to complete the picture. I developed this game as a course project.</p>
-                            <p className="portfolio_content">HTML | CSS Flex | Javascript</p>    
+                            <p className="portfolio_content">HTML | CSS Flex | Javascript | GitHub</p>    
                             <a href='https://solitonyc.github.io/puzzle-game/' target="_blank"><img className='portfolio_box_image' alt='' src={portfolioImage03} />  </a>        
                             
                         </div>
@@ -50,9 +50,9 @@ export default class Portfolio extends Component {
                         </div>              
                     
                         <div className='portfolio_card'>
-                            <h2 className="portfolio_card_title">API Integration and Authentication</h2>        
+                            <h2 className="portfolio_card_title">API Integration &amp; Retrieve</h2>        
                             <p className="portfolio_content">By utilizing fetch to integrate into Marvel's API, I created a search tool that retrieves Marvel characters from it's catalogue that match submitted character strings.</p>
-                            <p className="portfolio_content">HTML | CSS Flex | Javascript | Node.js | React.js | Fetch | Marvel API | Heroku</p>                    
+                            <p className="portfolio_content">HTML | CSS Flex | Javascript | Node | React | Fetch | Marvel API | Heroku</p>                    
                             <a href='https://ancient-shelf-14355.herokuapp.com/welcome' target="_blank"> <img className='portfolio_box_image' alt='' src={portfolioImage05} /></a>        
                             
                         </div>                    
