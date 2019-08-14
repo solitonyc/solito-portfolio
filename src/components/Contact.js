@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './contact.css';
 import contactBgImage from './images/backgrounds/contact-bg.jpg';
+import inImage from './images/li-logo.png';
 
 export default class Contact extends Component {
     render() {
@@ -18,8 +19,13 @@ export default class Contact extends Component {
                         Solito Reyes<br />
                         Phone: (646) 403.7500<br />
                         New York, NY<br />
-                        Email: solitonyc@gmail.com
-                    </div>   
+                        Email: solitonyc@gmail.com<br />
+                            
+                    </div>  
+                    <div className='linked_in'>
+                    <a href='https://www.linkedin.com/in/solito/' target="_blank"><img className='logo_image' alt='' src={inImage} /></a><br />  
+                        <a href='https://www.linkedin.com/in/solito/' target="_blank">See LinkedIn Profile</a>
+                    </div> 
                     <div className='contact_subtitle'>
                         Send Me a Private Message
                     </div>              
