@@ -11,9 +11,9 @@ export default class Skills extends Component {
                     <div className='skills_column_box'>
                         <div className="skills_column_title">Management</div>
                             <ul className="skills_column_list">
-                                <li>Product Development, Design & Management</li>
+                                <li>Product Development &amp; Management</li>
                                 <li>Project Management</li>
-                                <li>Roadmap Implementation and Management</li>
+                                <li>Roadmap Implementation &amp; Management</li>
                                 <li>Technical Writing</li>
                                 <li>Agile Process Management</li>
                                 <li>JIRA Software</li>
@@ -49,8 +49,8 @@ export default class Skills extends Component {
                                 <li>React</li>
                                 <li>Ruby / Ruby on Rails</li>
                                 <li>Git/GitHub</li>	
-                                <li>Infrastructure & Maintenance</li>	
-                                <li>Security Planning & Compliance</li>
+                                <li>Infrastructure &amp; Maintenance</li>	
+                                <li>Security Planning &amp; Compliance</li>
                             </ul>
                         </div>
                     </div>
