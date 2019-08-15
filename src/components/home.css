@@ -63,3 +63,36 @@
 #highlight {
     color: peru;
 }
+
+/* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
+@media screen and (max-width: 480px) and (min-width: 319px){  
+    .home_section_content_container {
+        padding: 8px;    
+    }
+    .home_section_background {
+        width: 100%;
+        padding: 15%;
+    }
+    .home_section_content_container {
+        background-color: rgba(0, 0, 0, .5)
+    }    
+    .home_title {        
+        color: rgb(255, 255, 255);
+        font-size: 26px;
+        line-height: 100%;
+    }
+
+    .home_subtitle {
+        line-height: 1;
+        font-size: 20px;
+        width: 100%;       
+    }
+
+    #highlight {
+        color: peru;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 105%;
+    }
+}
