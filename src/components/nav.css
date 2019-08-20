@@ -33,3 +33,10 @@
     padding-left: 20px;
     margin-top: 0;
 }
+
+/* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
+@media screen and (max-width: 480px) and (min-width: 319px){  
+    .nav-links {
+        display: none;    
+    }
+}
