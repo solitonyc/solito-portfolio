@@ -68,3 +68,22 @@
     border: rgb(12, 12, 12) 2px solid;
     border-radius: 12px;
 }
+
+/* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
+@media screen and (max-width: 480px) and (min-width: 319px){  
+    .portfolio_section_title {
+        font-size: 50px;
+    }
+    .portfolio_section_subtitle {
+        font-size: 20px;
+    }
+    .portfolio_card {
+        max-width: 300px;
+        height: 600px;
+    }
+    .portfolio_box_image {
+        margin: 14px;
+        max-width: 260px;
+    }
+
+}
