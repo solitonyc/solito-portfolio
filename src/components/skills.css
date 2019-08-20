@@ -73,3 +73,16 @@
     color: white;
     margin: 4px 4px 18px;
 }
+
+/* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
+@media screen and (max-width: 480px) and (min-width: 319px){  
+    .skills_section_title {
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(38, 4, 46);
+        font-size: 50px;        
+    }
+
+    .skills_columns_container {
+        max-width: 300px;
+    }
+}
