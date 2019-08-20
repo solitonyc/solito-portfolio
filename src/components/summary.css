@@ -55,3 +55,23 @@
     padding: 30px;
     line-height: 1.2;
 }
+
+/* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
+@media screen and (max-width: 480px) and (min-width: 319px){  
+    .summary_section_title {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 48px;
+        padding: 30px;
+    }
+    .summary_content_container {
+        max-width: 300px;
+    }
+    .summary_content {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 18px;
+        padding: 18px;
+        line-height: 1.2;
+    }
+}
