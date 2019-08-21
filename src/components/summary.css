@@ -1,7 +1,7 @@
 .summary_section {    
     display: flex;
     align-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -57,12 +57,12 @@
 }
 
 /* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
-@media screen and (max-width: 480px) and (min-width: 319px){  
+@media screen and (max-width: 520px) and (min-width: 319px){  
     .summary_section_title {
         font-family: 'Montserrat', sans-serif;
         color: white;
-        font-size: 48px;
-        padding: 30px;
+        font-size: 46px;
+        padding: 8px;
     }
     .summary_content_container {
         max-width: 300px;
@@ -70,7 +70,7 @@
     .summary_content {
         font-family: 'Lato', sans-serif;
         color: white;
-        font-size: 18px;
+        font-size: 16px;
         padding: 18px;
         line-height: 1.2;
     }
