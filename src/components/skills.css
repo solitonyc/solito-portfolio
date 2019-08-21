@@ -79,10 +79,17 @@
     .skills_section_title {
         font-family: 'Montserrat', sans-serif;
         color: rgb(38, 4, 46);
-        font-size: 50px;        
+        font-size: 50px; 
+        padding-bottom: 0px;       
     }
 
     .skills_columns_container {
         max-width: 300px;
+    }
+
+    .skills_column_box {
+        background-color: rgb(38, 4, 46);
+        border-radius: 9px;
+        margin: 8px;	
     }
 }
