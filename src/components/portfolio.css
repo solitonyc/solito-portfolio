@@ -70,20 +70,23 @@
 }
 
 /* -------------------- SMALL SCREEN MEDIAQUERY ------------- */
-@media screen and (max-width: 480px) and (min-width: 319px){  
+@media screen and (max-width: 580px) and (min-width: 319px){  
+    
     .portfolio_section_title {
-        font-size: 50px;
+        font-size: 46px;
     }
     .portfolio_section_subtitle {
-        font-size: 20px;
+        font-size: 16px;
     }
     .portfolio_card {
-        max-width: 300px;
+        max-width: 95%;
         height: 600px;
+        margin: 4px;
     }
     .portfolio_box_image {
-        margin: 14px;
-        max-width: 260px;
+        margin: 6px;
+        padding: 8px;
+        max-width: 90%;
     }
 
 }
