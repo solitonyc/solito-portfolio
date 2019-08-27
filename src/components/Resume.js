@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Pdf from './docs/_SolitoReyes-Resume.pdf';
 
 import './resume.css';
 
@@ -100,8 +101,9 @@ export default class Resume extends Component {
                 <div className="experience_item_b">
                     <div className="pdf_content_container">
                         <div className="pdf_content_text">Download resume as full-page, PDF document:</div>        
-                        <button className='pdf_download_button'><a href="https://docdro.id/rfvXLA3" target="_blank">View PDF</a></button>
+                        <button className='pdf_download_button'><a href = {Pdf} target = "_blank">View Pdf</a></button>
                     </div>
+                            {/* <a href="https://docdro.id/rfvXLA3" target="_blank">View PDF</a></button> */}
                 </div>
             </div>
         )
