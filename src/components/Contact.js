@@ -27,7 +27,7 @@ export default class Contact extends Component {
                         <a href='https://www.linkedin.com/in/solito/' target="_blank">See LinkedIn Profile</a>
                     </div> 
                     <div className='contact_subtitle'>
-                        Send Me a Private Message
+                        Send me a private message
                     </div>              
                     <div className='contact_content'>
                         Click the button below and complete the following form.  I'll respond back ASAP.
