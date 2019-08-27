@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import './resume.css';
 
 export default class Resume extends Component {
@@ -94,6 +95,12 @@ export default class Resume extends Component {
                         <p className="job_description">
                         S&amp;C serves as one of the most prestigious, international corporate law firms in the Financial District. Assigned to the historic Microsoft Anti-Trust Trial in Washington DC as lead tech support engineer supporting the IT needs of famed NY Partners, John Warden, Steve Holly, their associates, executives and counsel of Microsoft as such Bill Gates, Steve Balmer, Jim Allchin, Paul Maritz and Bill Neukom and other executives; supported office of over 500 attornies and over 1,500 staff worldwide on a Novell Network; supported 12 global offices and private home users via remote control LanSight and Cytrix WinFrame.
                         </p>
+                    </div>
+                </div>
+                <div className="experience_item_b">
+                    <div className="pdf_content_container">
+                        <div className="pdf_content_text">Download resume as full-page, PDF document:</div>        
+                        <button className='pdf_download_button'><a href="https://docdro.id/rfvXLA3" target="_blank">View PDF</a></button>
                     </div>
                 </div>
             </div>
